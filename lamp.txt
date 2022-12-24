@@ -1,0 +1,31 @@
+
+useradd apache
+cat /app/httpd24/conf/httpd.conf 
+user apache
+group apache
+addType application/x-httpd-php .php
+AddType application/x-httpd-php-source .phps
+ProxyRequests Off
+#ProxyPassMatch  ^/(.*\.php)$ fcgi://127.0.0.1:9000/app/httpd24/htdocs/$1
+proxypassmatch "^/(.*\.php(/.*)?)$" "unix:/var/run/fpm.sock|fcgi://127.0.0.1/app/httpd24/htdocs/"
+
+
+
+cat /app/php/etc/php-fpm.d/www.conf
+user = apache
+group = apache
+
+; The address on which to accept FastCGI requests.
+; Valid syntaxes are:
+;   'ip.add.re.ss:port'    - to listen on a TCP socket to a specific IPv4 address on
+;                            a specific port;
+;   '[ip:6:addr:ess]:port' - to listen on a TCP socket to a specific IPv6 address on
+;                            a specific port;
+;   'port'                 - to listen on a TCP socket to all addresses
+;                            (IPv6 and IPv4-mapped) on a specific port;
+;   '/path/to/unix/socket' - to listen on a unix socket.
+; Note: This value is mandatory.
+;listen = 127.0.0.1:9000
+listen = /var/run/fpm.sock
+
+listen.mode = 0666

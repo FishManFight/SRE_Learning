@@ -1,0 +1,2461 @@
+awk
+aide 
+alias #
+arp 
+at
+arping
+authconfig 
+basename
+bg
+break
+bzip2 bz2 bunzip2 bzcat 
+blkid 
+case
+compress uncompress zcat .Z
+cat /etc/centos-release #
+cal #
+cd  
+convert
+continue
+clock #
+chcon 
+cp 
+cpio 
+chattr
+chage
+chfn
+chsh
+curl 
+chmod 
+chown 
+chgrp 
+chkconfig 
+chpasswd
+clear  ctrl+l #
+date #
+dirname
+declare -x 
+dmesg
+dropbear 
+df
+dstat
+dd
+du 
+dumpe2fs
+expect
+exit #
+e2label 
+enable  #
+export
+eject
+env
+eval
+ethtool
+echo $SHELL #
+file
+fg
+for
+function  
+findfs 
+findmnt
+fsck e2fsck 
+finger
+find 
+fuser  
+free 
+getenforce 
+fdisk MBR
+gdisk 
+getfacl 
+glances
+gpg 
+grub-install
+grub-crypt
+grub-md5-crypt
+getent passwd shadow group gshadow 
+groupadd
+groupmod
+groupdel 
+groups 
+grpck
+getsebool 
+groupmems 
+gpasswd
+grub
+grub2-mkconfig -o /etc/grub2.cfg
+gzip -d  gz gunzip zcat 
+halt #
+hash #
+hexdump 
+help 
+htop
+hostname ＃
+history 
+kill
+killall
+info
+install
+if
+ifconfig
+ip 
+iotop
+iostat
+ifup
+ifdown 
+init 3 5  0 6 #
+id -u  #
+iconv
+lsattr 
+logout ctrl+d#
+lsblk #
+ls 
+lsmod 
+ln -s 
+lscpu #
+lsb_release -a #
+localectl 
+lsof 
+lvcreate
+lsusb
+local 
+lastb
+lvs
+lvdisplay
+lvrename
+lvextend
+lvreduce
+locate
+lvconvert 
+mkinitrd 
+mii-tool eth0|ens33 #
+man 
+mktemp
+mount
+mdadm 
+nmcli
+nmtui
+make install configure
+mandb 
+mkswap
+mkisofs 
+makewhatis
+mkdir
+mv
+mkfs.xfs
+mtr
+mkfs -t 
+mke2fs 
+modprobe
+md5sum 
+newgrp
+nice
+ntsysv
+newusers
+netstat
+nohup 
+nmcli  connection modify  ens33  connection.autoconnect yes      centos7 
+nano  /etc/profile.d/env.sh  PS1="\[\e[1;33m\][\u@\h \W]\\$\[\e[0m\]"
+ntpdate  ntp network time protocol 
+openssl 
+poweroff #
+ps 
+pvs
+pvdisplay
+pvscan
+ps
+pmap
+pidof
+pkill 
+pgrep  
+pvcreate
+pvremove
+pvmove
+pstree 
+partprobe 
+printenv
+pwck
+parted
+partx 
+pssh
+pwd  #
+reboot #
+rename
+rsync 
+rz#
+return
+renice
+rmdir
+rm 
+rmmod
+route 
+reset
+runlevel#
+resize2fs 
+rpm -ivh 
+screen #
+setenforce 
+semanage
+sealert
+sestatus 
+swapon 
+swapoff 
+sz file 
+setsebool 
+shutdown #
+setfacl
+sleep 
+sudo 
+scp 
+ssh-keygen
+ssh-copy-id
+ssh-agent bash
+ssh-add 
+ssh 
+sftp 
+slogin 
+sosreport
+sudoedit
+startx #
+source .
+stat 
+su - 
+split 
+shift
+select 
+ss
+set
+sha1sum 
+sha512sum ...
+trap 
+top
+taskset
+tune2fs -l 
+tar  cvf tvf xvf z gz j bz2 J xz 
+tree
+traceroute 
+tracepath
+touch 
+type #
+tty   #
+timedatectl  #
+unalias #
+uname -r #
+useradd 
+umount
+until
+usermod
+userdel 
+updatedb
+umask
+usleep
+uptime
+unset varname 
+vipw
+vgdisplay
+vgs
+vmstat
+vgcreate
+vgreduce
+vgextend
+vgremove 
+vgchange
+vgimport
+vgexport
+vgrename
+vigr
+visudo 
+.  .bashrc 
+w #
+which #
+whereis #
+who  #
+whoami #
+whatis 
+wodim
+wait
+while
+xz unxz xzcat xz 
+xfs_growfs 
+zip unzip  
+
+
+
+
+二进制
+
+10
+
+2
+8
+16
+
+
+N进制，达到N，就进位
+
+0，9，10
+
+0，1，10，11，100
+
+0，7，10，11
+
+0，9，A，B，F（15），10
+
+8
+
+0    0
+1    1
+10   2
+100  4
+1000 8 2^3
+10000 16
+100000 32
+1000000 64
+10000000 128 
+
+
+10 
+
+1000
+  10
+1010
+
+97
+
+1000000
+ 100000
+1100001
+
+10101010
+
+128
+32
+8
+2
+
+11111 1  1		1
+     2^2 	2^1	2^0
+
+
+c/s
+client
+server:要求，稳定
+
+web:apache,nginx
+database:mysql ,oracle
+
+IOE:阿里提出，IBM，Oracle,EMC
+
+NFS，SAMBA，FTP
+TOMCAT
+RSYSLOG
+ZABBIX
+GIT
+KVM 
+DOCKER K8S
+SENDMAIL
+DC  DOMAIN CONTROLLER AD 
+
+byte 11111111 字节
+bit 0 1
+
+\\172.16.0.1\34
+username:magedu34
+password:magedu34
+
+K 10^3
+M 10^6
+G 10^9
+
+
+K  1024 2^10
+M  1024k 2^20
+G  1024M
+T  1024G
+P  1024T
+E  
+Z
+Y
+
+
+N
+D
+B 
+
+
+1Gbps
+
+1Gbit/second
+
+500MB byte
+b bit
+1GB
+
+ACA 600 
+RHCE
+
+NAS:file 
+SAN
+
+
+c:
+d:block 
+e:format ntfs block
+
+
+
+
+
+libary 库
+
+安全
+
+加密 算法
+
+算法库
+
+sin()
+
+程序 调用API  库
+
+
+rhel 商业
+
+bash shell 
+
+
+0
+1
+10 2
+100 4
+1000 8
+16
+32
+64 128 256 
+
+10101000 
+
+U 
+
+app  user 
+OS1 kernel OS2 OS3
+virtual  
+hardware
+
+
+linux 分区名称：目录名
+windows 分区： c d 
+
+
+分区分配一个目录名mount point ，为挂载 mount
+
+硬盘
+IDE /dev/hd
+SATA /dev/sd
+SCSI
+SAS
+USB
+
+centos6
+/dev/sda,b,c,...z,aa,ab,ac,az,ba,
+分区：MBR，GPT
+主：一个硬盘上最多四个，只有一个是活动，1-4
+扩展：最多一个，划分更小的分区，扩展+主分区<=4  1-4
+逻辑分区：5，6
+
+分区规划：
+/      50G
+/boot  1G
+/data  30G
+swap  交换分区 2G centos7.5  centos6.10 1GB
+
+4eead850afed0fc7d170c23bfabfed379419db79
+
+48908ca17bc4ba2fb8e365c9fe7648eb6cd6bd67  CentOS-6.10-x86_64-bin-DVD1.iso
+cd756561d50c2ae937dea6ec99f363176bc576fe  CentOS-6.10-x86_64-bin-DVD2.iso
+
+sha1sum /dev/sr0
+
+ctrl+alt+enter 全屏
+ctrl+alt 
+
+ethernet 以太网 
+
+eth0 
+eth1 
+看 cat   /proc/meminfo
+free -h
+shift+pageup
+
+rpm -qa|wc -l
+
+root administrator 
+
+
+
+
+
+uid userid 
+0 
+not 0 
+alias ---- 内部 --hash表（记录外部命令的路径）---$PATH --命令找不到
+
+缓存cache：将刚用硬盘的数据放在内存中，下次用此数据，不需要从硬盘找，直接内存取出hash
+
+cache为王
+redis memcached 
+
+ctrl+c 
+
+
+1 终端网断
+screen 
+cmd
+
+2 远程协助
+screen -S help 
+screen -x help 
+
+cmd option arg 
+
+1 0 1
+2 00 01 10 11 
+
+128 2^7 
+
+0000000
+0000001
+0000010
+...
+1111111
+
+
+''
+""
+`` = $()
+
+manual 手册 
+
+binary 
+echo '- - -' > /sys/class/scsi_host/host0/scan 
+
+重点：
+1 帮助用法 
+2 目录结构 
+3 ls cd pwd 
+4 相对，绝对路径区别 
+5 快捷键 
+
+/boot 
+/home/wang
+/root 
+/etc  /etc/profile.d/env.sh  /etc/profile HISTSIZE  /etc/issue /etc/motd /etc/DIR_COLORS /etc/centos-release 
+/dev sda sr0 zero null random 
+/bin  
+/sbin 
+/media 
+/mnt 
+/var/log/ 
+/var/www/html html
+/var/spool/mail 
+/tmp 
+/proc 内存 
+/sys  硬件 
+/usr 
+/lib
+/lib64
+/opt
+/srv 
+/selinux selinux 
+
+centos7
+systemctl stop firewalld
+systemctl disable firewalld 
+
+centos6
+service iptables stop
+chkconfig iptables off
+
+1 ls /var/l*[0-9]*[[:lower:]] -d
+ls /var/l*[[:digit:]]*[[:lower:]] -d
+2 ls /etc/[0-9]*[^0-9]  -d
+3 ls -d /etc/[^[:alpha:]][[:alpha:]]*   
+4 ls /etc/rc[0-6]* -d 
+5 ls /etc/*.d -d
+6 ls -d /etc/[mnrp]*.conf
+7 ls -d /root/.*
+ls -aI "[^.]*"  当前目录为/root
+l. ls -d .* --color=auto 当前目录为/root
+8 ls -d /etc/*/
+
+alias baketc='cp -av /etc/ /data/backup`date +%F`'
+
+mkdir -p /testdir/dir1/{x,y}/{a,b}
+mkdir -pv /testdir/dir2/{x/{a,b},y}
+mkdir -p /testdir/dir{3,4,5/dir{6,7}} 
+
+
+硬链接：对一个文件，起多个名字。
+
+软链接：原始文件一般路径用相对路径，相对路径一定相对于软链接文件的路径
+
+硬链接和软链接区别
+1 同一个文件？
+2 跨分区？
+3 链接数增长？
+4 inode Number 是否相同？
+5 原始文件删除，链接文件可否访问？
+6 大小？
+7 支持目录？
+8 相对路径？
+
+
+A cmd &> /dev/null
+B cmd > /dev/null 2>&1
+C cmd 2>&1 > /dev/null   
+D cmd 2> /dev/null 1>&2
+
+
+tr " " + < bc.txt
+tr " " + < bc.txt > tr.log
+bc < tr.log
+
+
+
+groupadd webs
+useradd -G webs nginx 
+useradd -G webs varnish
+useradd -s /sbin/nologin mysql 
+echo magedu | passwd --stdin nginx
+echo magedu | passwd --stdin varnish
+echo magedu | passwd --stdin mysql
+
+
+file permission
+
+对于文件
+r read 文本文件，看内容
+w write 文本文件， 修改内容
+x excute 程序（二进制，脚本），执行
+
+对于目录
+r read   可浏览文件列表
+w write  可创建，删除文件
+x excute cd 访问目录内的文件 
+
+
+chmod who  opt  per file 
+模式法
+who: u g o a 
+opt: + - =
+per: r w x 
+
+数字法
+chmod 数字 file 
+
+rwxrw-r-- file
+111 110 100
+764
+
+r-- 
+100 4
+-w-
+01- 2
+--x
+001 1
+
+r 4
+w 2
+x 1
+
+rwx 7
+
+实验：删除家目录，恢复
+cp -r /etc/skel /home/mage
+chown -R mage.mage /home/mage 
+chmod 700 /home/mage
+
+/etc/passwd /etc/group /etc/shadow /etc/gshadow /etc/default/useradd /etc/login.defs /etc/skel/
+
+
+suid:4 作用于二进制可执行的文件上，功能：当用户执行此文件，会继承此文件所有者的权限
+sgid:2 
+1）作用于二进制可执行的文件上，功能：当用户执行此文件，会继承此文件所属组的权限
+2）作用于目录上，功能：当用户在此目录建新文件时，此新文件的所属组继承目录的所属组
+sticky:1 作用于目录上，功能：对目录的文件，只能删除自已的文件
+
+
+cat /dev/urandom |tr -dc 'a-zA-Z0-9_' |head -c12
+ifconfig eth0 | head -2|tail -1|tr -s ' ' :|cut -d: -f3
+ifconfig eth0 | head -2|tail -1|tr -s ' '|cut -d" " -f3
+ifconfig eth0 | head -2|tail -1|cut -dt -f2|cut -dn -f1
+ifconfig eth0 | head -2|tail -1|cut -d: -f2|tr -dc '[0-9].'
+ifconfig eth0 | head -2|tail -1| tr -dc '[0-9]. ' |tr -s ' ' |cut -d" " -f2
+
+
+ss -nt|tr -s ' ' : |cut -d: -f6|tr -dc '[0-9].\n'
+ss -nt |cut -d: -f2|tr -s " " |cut -d" " -f 2  
+ss -nt |tr -dc '0-9 .\n:' |tr -s " " :|cut -d: -f6
+
+df|tr -s ' ' "%"|cut -d% -f5|sort -nr|head -n1
+df|tr -s ' ' "%"|cut -d% -f5|sort -n|tail -n1
+
+cut -d " " -f1 /var/log/httpd/access_log |sort |uniq -c|sort -nr|head
+
+cat f1 f2|sort |uniq -d  交
+grep -f f1 f2  交
+
+cat f1 f2|sort |uniq -u  不同
+cat f1 f2|sort -u  并集
+
+
+ifconfig eth0 | grep -o  "[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}"  |head -n1
+ifconfig eth0 |grep -o "\([0-9]\{1,3\}\.\)\{3\}[0-9]\{1,3\}" |head -1
+
+正则表达式
+1 QQ号
+2 身份证号
+3 手机号
+4 邮箱  a@a.c  
+
+echo "/etc/rc.d/init.d/functions" | grep -Eo "[^/]+$" 
+echo "/etc/rc.d/init.d" |  grep -Eo ".*[^/]" |  grep -Eo ".*/"
+/etc/rc.d/
+0-9 [0-9]
+10-99 [1-9]?[0-9]
+[1-9]?[0-9]
+
+100-199 1[0-9]{2}
+
+200-249 2[0-4][0-9]
+250-255 25[0-5]
+
+(([1-9]?[0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([1-9]?[0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])
+
+ifconfig | grep -Eo "(([1-9]?[0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([1-9]?[0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])"
+ifconfig | grep -o "\(\([1-9]\?[0-9]\|1[0-9]\{2\}\|2[0-4][0-9]\|25[0-5]\)\.\)\{3\}\([1-9]\?[0-9]\|1[0-9]\{2\}\|2[0-4][0-9]\|25[0-5]\)"
+
+:%s/\(.*CMD.*\)"/\1 xyz"/   
+:%s@^[^#]\|^$@#&@
+
+
+name=m34;(echo $name;name=net34;echo $name );echo $name
+name=m34;{ echo $name;name=net34;echo $name; };echo $name
+
+异或：相同为0 不同为1 0 ^ 0 1^1 0 ^ 1 1
+同或：相同为1 不同为0
+A=10;B=20;tmp=$A;A=$B;B=$tmp;echo A=$A B=$B
+A=10;B=20;A=$[A^B];B=$[A^B];A=$[A^B];echo A=$A B=$B
+
+cmd1 与 cmd2 
+cmd1为真 与 cmd2  结果？
+cmd1为假 与 cmd2  结果假
+
+cmd1 或 cmd2 
+cmd1为真 或 cmd2  结果真
+cmd1为假 或 cmd2  结果？
+
+cmd1 短路与&& cmd2 
+如果cmd1为真，则执行cmd2
+如果cmd1为假，则不执行cmd2
+
+cmd1 短路或|| cmd2 
+如果cmd1为真，则不执行cmd2
+如果cmd1为假，则执行cmd2
+
+
+cmd2 cmd3 真
+cmd1 && cmd2 || cmd3 
+如果cmd1为真，cmd2执行，cmd3不执行
+如果cmd1为假，cmd2不执行，cmd3执行
+
+cmd2 cmd3 真
+cmd1 || cmd2 && cmd3 
+如果cmd1为真，cmd2不执行，cmd3执行
+如果cmd1为假，cmd2执行，cmd3执行
+
+
+[[ "$ip" =~ ^((1?[0-9]?[0-9]|2[0-4][0-9]|25[0-5])\.){3}( 1?[0-9]?[0-9]|2[0-4][0-9]|25[0-5])$ ]]&& echo true || echo false
+
+鸡兔同笼
+孙子算经
+
+输入头数：35  
+输入脚的个数：94
+
+几只鸡:x
+几只兔：y
+
+x+y=35
+2x+4y=94
+
+94/2=47-35=12
+35-12=23
+
+chook_rabbit.sh 
+请输入头数： 
+请输入脚个数:
+
+运行输入：
+\\172.18.0.1\34
+
+用户名magedu34
+口令MaGeDu34
+
+
+禁用SElinux
+sed -i ^C/^SELINUX=/cSELINUX=disabled' /etc/selinux/config
+
+ifconfig eth0 |sed -rn '2s/(^.*inet )(.*)(  netmask.*$)/\2/p' 
+ifconfig eth0|sed -nr '2s/.*t (.*) net.*/\1/p'
+ifconfig | sed -nr "s/.*inet (.*)netmask.*/\1/p" | head -n 1
+ifconfig eth0|sed -r '2!d;s/.*inet (addr:)?//;s/ .*//'
+
+
+[root@centos6 data]#echo /etc/sysconfig/network-scripts | sed -nr 's@(^.*/)([^/].*)/?$@\1@p'
+/etc/sysconfig/
+[root@centos6 data]#echo /etc/sysconfig/network-scripts | sed -nr 's@(^.*/)([^/].*)/?$@\2@p'
+network-scripts
+
+sed -r 's/[[:alpha:]]/\l&/g' /etc/fstab
+sed -nr '/.*CMDLINE_LINUX.*/s#(.*)"#\1 net.ifnames=0"#p' /etc/default/grub 
+
+
+
+当centos 7 版本才执行修改/etc/default/grub
+sed -nr '/.*CMDLINE_LINUX.*/s#(.*)"#\1 net.ifnames=0"#p' /etc/default/grub 
+
+
+setnet_N.sh
+
+SystemVersion=$(cat /etc/centos-release | sed "s@.* \([0-9]\+\)\..*@\1@")
+[ $SystemVersion -eq 7 ] && sed -i -r '/.*CMDLINE/s@(.*)"@\1 net.ifnames=0"@' /etc/default/grub.
+
+
+num=`cat /etc/centos-release|grep -o "[[:digit:]]"|head -1`
+[ $num -eq 7 ] || exit 1
+sed -ir '/.*CMDLINE_LINUX.*/s#(.*)"#\1 net.ifnames=0"#' /etc/default/grub
+
+str=abc
+sed -nr '/.*CMDLINE_LINUX.*/s#(.*)"#\1 '''$str'''"#p' /etc/default/grub
+GRUB_CMDLINE_LINUX="crashkernel=auto rhgb quiet net.ifnames=0 abc"
+
+
+sed '/^#/d;/^$/d' /etc/httpd/conf/httpd.conf 
+sed -r '/^#|^$/d' /etc/httpd/conf/httpd.conf
+
+ls *.rpm| sed -r 's/.*\.(.*)\.rpm$/\1/' |sort | uniq -c
+ls *.rpm|rev|cut -d. -f2|rev |sort |uniq -c
+
+实验：删除/lib64/libc.so.6，恢复之
+实验：删除rpm包，恢复之
+
+rpm -i -e 
+-qi -qa -q package 
+-ql -qc -qd -qf /path/file -qpl /path/rpmfilename
+-nodeps --force 
+--root=/
+-q --scripts 
+
+centos7
+yum install autofs 
+systemctl enable autofs
+systemctl start autofs
+/misc/cd/
+
+install_httpd.sh
+
+1 
+yum.repo
+[root@centos7 cd]#cat /etc/yum.repos.d/base.repo 
+[base]
+name=CentOS
+baseurl=file:///misc/cd
+gpgcheck=0
+
+2 httpd 
+
+http://192.168.34.7/ 
+/var/www/html/centos/7/os/x86_64/
+/var/www/html/centos/6/os/x86_64/
+
+https://mirrors.tuna.tsinghua.edu.cn/centos/7/os/x86_64/
+
+实验：基于HTTP协议的网络yum仓库
+
+1 建立yum服务器
+mkdir /mnt/cdrom
+mount /dev/sr0 /mnt/cdrom 
+vim /etc/yum.repos.d/base.repo
+[base]
+name=CentOS
+baseurl=file:///mnt/cdrom
+gpgcheck=0
+
+yum install httpd -y
+
+systemctl start httpd
+
+mkdir -pv centos/{6,7}/os/x86_64/
+mount /dev/sr0 /var/www/html/centos/7/os/x86_64/
+mount /dev/sr1 /var/www/html/centos/6/os/x86_64/
+
+2 配置yum客户端
+[root@centos7 html]#cat /etc/yum.repos.d/base.repo 
+[base]
+name=CentOS
+baseurl=http://yum服务器IP/centos/$releasever/os/$basearch
+gpgcheck=0
+
+
+实验：建立EPEL，BASE仓库
+别名
+启用epel源
+禁用epel源
+
+
+关闭防火墙
+centos7 
+systemctl disable firewalld 
+systemctl stop firewalld
+
+centos6 
+chkconfig iptables off
+service iptables stop
+
+
+SELinux 关闭
+vim /etc/selinux/config
+SELINUX=disabled
+
+reboot 
+
+yum remove libvirt-daemon
+
+yum install remove list info search groupinstall grouplist groupremove  history 
+yum clean all 
+
+
+实验：利用脚本实现源码编译安装httpd-2.4.25.tar.bz2
+
+1 yum groupinstall "development tools"
+yum install apr-devel apr-util-devel pcre-devel openssl-devel
+
+2 useradd -r -u 80 -d /data/www/ -s /sbin/nologin httpd
+
+3 tar xf httpd-2.4.25.tar.bz2 
+cd cd httpd-2.4.25/
+
+4 cat README
+cat INSTALL
+
+5 ./configure --help
+ ./configure --prefix=/app/httpd --sysconfdir=/etc/httpd24  --enable-ssl --disable-status
+ 
+6 make && make install 
+
+7 PATH变量
+echo 'PATH=/app/httpd/bin:$PATH' > /etc/profile.d/httpd.sh
+. /etc/profile.d/httpd.sh
+
+8 apachectl start
+
+bit
+
+bps bit/s 
+track 磁道
+sector 512 byte
+head
+cylinder 柱面=512*sectors/track*head数=512*63*255=8M
+
+CHS
+
+512*sectors/track*track数*head数
+sectors/track：6bit 000000 111111 63
+track/cylinder:10bit 2^10=1024
+head数：8bit 255
+
+512*63*1024*255
+
+MBR
+主分区：1-4
+扩展分区：扩展+主分区<=4 
+逻辑分区：
+
+k,m,g,t,p,e,z,y,b,n,d
+
+
+实验：分区表的备份和还原
+
+[root@centos6 ~]#blkid -U `sed -rn 's#^UUID=(.*) / .*#\1#p' /etc/fstab `        
+/dev/sda2
+
+在centos6之前版手动创建的ext分区，默认没有ACL功能
+
+一个设备可以同时挂载到多个目录
+一个目录可挂载多个设备呢？不可以
+
+实验：增加一块新硬盘，分区，创建文件系统XFS|EXT4，挂载
+
+实验：/etc/fstab文件错误，无法启动，故障排错centos6,7
+
+实验：实现swap分区
+
+实验：迁移/home目录到新分区中
+
+实验：实现raid10
+
+实验：创建LVM
+
+1 fdisk t 8e /dev/sda6
+ /dev/sdc 
+ 
+2 pvcreate /dev/sda6  /dev/sdc 
+
+3 vgcreate vg0 /dev/sda6  /dev/sdc 
+
+4 lvcreate -n lv_mysql -L 15G vg0
+
+5 mkfs.ext4 /dev/vg0/lv_mysql 
+
+6 mount /dev/vg0/lv_mysql /mnt/mysql
+
+
+实验：扩展LVM
+
+1 vgdisplay 查看VG有空闲空间
+
+2 lvextend -l +100%FREE /dev/vg0/lv_mysql
+
+3 resize2fs /dev/vg0/lv_mysql
+
+2，3合并成lvextend
+lvextend -r -L  5G /dev/vg0/lv_data  
+
+4 df 
+
+实验：扩展VG
+
+
+实验：缩减LVM
+
+1 umount /mnt/mysql
+
+2 fsck -f /dev/vg0/lv_mysql
+
+3 resize2fs /dev/vg0/lv_mysql 20G
+
+4 lvreduce -L 20 /dev/vg0/lv_mysql
+
+5 mount /dev/vg0/lv_mysql /mnt/mysql
+
+
+实验：ext LV的快照,并恢复
+1 lvcreate -n lv_data_snap -p r  -s -L 1G /dev/vg0/lv_data
+
+2 mount -o  /dev/vg0/lv_data_snap /mnt/snap/
+
+3  umount /mnt/data
+ umount /mnt/snap/
+4  lvconvert  --merge /dev/vg0/lv_data_snap 
+
+实验：xfs LV的快照,并恢复
+
+1 lvcreate -n lv_data_snap -s -L 1G /dev/vg0/lv_data
+
+2 mount -o nouuid，ro  /dev/vg0/lv_data_snap /mnt/snap/
+
+3  umount /mnt/data
+ umount /mnt/snap/
+
+4 lvconvert  --merge /dev/vg0/lv_data_snap 
+
+
+挂载 
+swap 
+dd 
+raid 
+lvm 
+
+VPN 
+
+http://www.magedu.com
+
+c/s 
+
+curl links 
+
+NoSQL 
+Not only SQL 
+redis 
+
+firewalld  iptables 
+
+ISO 
+OSI 
+
+IOS 
+
+ascii utf-8 
+segent:段 终端对终端通信，可靠，
+packet package 包：逻辑地址，路由
+帧 frame  物理地址 mac 链路
+bit 
+
+all people seem to need process data
+
+application
+persention 
+session
+transport
+network
+data link
+physical 
+
+
+unicast
+broadcast
+MULTICAST
+
+lan 广播
+wan 点对点
+
+
+base 基带 ，数字
+
+单工  
+半双工  
+全双式
+
+DEC 
+Intel 内存条
+X 施乐 图形 1973 apple  windows 
+
+IEEE 802.3 
+ethernet 2 
+
+72-1526
+60-1514
+
+
+mac  media access control  物理地址
+
+冲突域：一个主机发送报文，另一主机也发送报文，产生冲突，两个主机在一个冲突域
+广播域：一个主机发送广播，另一主机收到，两个主机在一个广播域
+
+0-66535
+
+C/S client/Server B/S broswer  
+ssh c/s 
+
+http tcp 80 https tcp 443  ssh tcp 22 ftp 21 QQ :udp 8000 dhcp 67,68 snmp 161 
+mysql tcp   3306
+oracle tcp  1521 
+sql server  1433 
+kerberos    88/tcp  
+smtp   25
+pop3   110
+imap   143 
+smb    445
+
+ss -nt |sed -rn '1!s/^([^ ]+).*/\1/p' |sort |uniq -c
+
+ddos T
+
+IGMP 多播 
+
+TCP segment 段
+IP  packet package
+frame 
+
+
+路由
+ARP
+DNS UDP
+路由
+ARP
+三次握手
+DATA SEND
+HTTP
+
+分类
+
+A
+1-126.X.Y.Z
+1600万
+网络ID位为高8位，主机ID位为24
+0xxxxxxx.X.Y.Z
+00000000 0
+01111111 127
+
+10.0.0.100
+10.0.0.0  
+10.255.255.255
+
+114.114.114.114
+
+B
+128-191.x.y.z
+网络ID位为高16位，主机ID位为16
+10xxxxxx.X.Y.Z
+10000000. 128
+10111111. 191
+65534
+
+172.18.0.100
+
+C
+192-223.x.y.z
+网络ID位为高24位，主机ID位为8
+110xxxxx.x.y.z
+11000000 192
+11011111 223
+254
+
+
+D
+224-239.x.y.z
+多播地址
+1110xxxx.x.y.z
+
+E
+11110xxx.
+240-254.x.y.z
+
+
+
+
+无类域间路由CIDR:网络id位数不确定,22
+netmask子网掩码:32bit 二进制,对应于网络ID位为1，对应于主机ID位为0 
+
+
+
+
+
+10.0.0.100/19    255.255.224.0 
+
+203.110.200.199/22  
+1 主机数?1022
+2 netmask?255.255.252.0
+3 网络ID值?
+
+203.110.200.199
+
+203.110.110010 00.199
+255.255.111111 00.00000000 
+203.110.110010 00.0/22
+203.110.200.0/22
+
+192.168.34.6
+255.255.255.0
+192.168.34.0/24
+
+
+0与1=0
+0与0=0
+1与0=0
+1与1=1
+
+A 192.168.1.100 
+  255.255.255.0
+ 
+
+B 192.168.2.100 
+  255.255.0.0
+ 
+
+A 172.18.0.100 255.0.0.0  172.18.0.0/16
+B 172.18.0.123 255.255.255.0 172.18.0.0/24
+
+
+100.123.199.124/20
+1 主机数  2^12-2
+2 子网掩码 255.255.240.0 
+3 网络ID:100.123.192.0/20
+4 最小和最大IP:100.123.192.1 --- 100.123.207.254
+
+100.123.11000111.124
+255.255.240.0 
+100.123.1100 0000.1 
+100.123.1100 1111.254 
+
+123.200.233.100/23  
+123.200.235.100/23  
+
+
+
+
+100.123.1100  0000.000000001
+100.123.1100  1111.111111110
+
+00000000  0
+10000000  128
+11000000  192
+11100000  224
+11110000  240
+11111000  248
+11111100  252
+11111110  254
+11111111  255
+
+00000001 
+00000010
+00000100
+00001000
+00010000
+00100000
+01000000
+10000000 
+
+10.0.0.1--10.255.255.254  
+10.00 000000.0.0
+
+10.00 000000.0.0 10.0.0.0/10
+10.01 000000.0.0 10.64.0.0/10
+10.10 000000.0.0 10.128.0.0/10
+10.11 000000.0.0 10.192.0.0/10
+
+10.0 0000000.0.0 10.0.0.0/9 
+10.1 0000000.0.0 10.128.0.0/9
+
+10.0.0.0/8 给32省份划分各自子网
+借5位
+1 子网子网掩码 255.248.0.0 
+2 最小子网，最大子网的网络ID
+10.00000  000.0.0  10.0.0.0/13
+10.11111  000.0.0  10.248.0.0/13
+3 每个子网主机数？2^19-2
+4 第20个子网分给河南使用，最小IP10.152.0.1，最大IP范围10.159.255.254
+
+10.10011  000.0.1       
+10.10011  111.255.254   
+
+公式：
+1一个网络中主机最大数=2^主机ID位数(32-网络ID位数)-2=2^(32-网络ID位数)-2
+2网络数=2^可变网络ID位
+3CIDR表示法：IP/网络ID位数
+4网络ID值=IP与子网掩码
+5划分子网：一个大网划分成多个小网，网络ID位变多，主机ID位才变少，网络ID向主机ID借位N,分成2^N个小网
+6合并超网：多个小网合并成一个大网，主机ID向网络ID借位
+ 
+河南省10.152.0.0/13 给15个地市，划分各自子网 2^N>=15 N=4
+1 子网子网掩码  17 255.255.128.0
+2 最小子网，最大子网的网络ID
+
+10.10011  000.0  0000000.0 10.152.0.0/17
+10.10011  111.1  0000000.0 10.159.128.0/17
+
+3 每个子网主机数？ 2^(32-17)-2 
+4 最大子网的最小IP，最大IP范围 10.159.128.1-10.159.255.254
+
+10.10011  111.1  0000000.0
+10.10011  111.1  0000000.1  10.159.128.1
+10.10011  111.1  1111111.254 10.159.255.254
+
+ 河南省10.152.0.0/13 给87个区县，划分各自子网 
+1 子网子网掩码  
+2 最小子网，最大子网的网络ID
+3 每个子网主机数？
+4 最大子网的最小IP，最大IP范围 
+
+
+220.78.10101 000.0
+220.78.10101 001.0
+
+
+220.78.10101 111.0
+
+220.78.168.0/21
+
+路由表：
+目标网络ID：目标IP所在网络ID  
+接口：本设备要发送数据包到目标，从哪个接口发送出来，才能到达
+网关：到达目标网络，需要将数据交给下一个路口哪个接口的对应的IP
+
+
+discover 
+offer 
+request
+ack
+ 
+A:192.168.34.100/24
+B:172.18.0.100/16 
+
+
+netstat -ntau|sed -nr '/^tcp/s/.* ([^ ]+) ?/\1/p' |sort |uniq -c
+ss -nta| sed -nr '1!s/([^ ]+).*/\1/p' |sort |uniq -c
+
+路由表
+主机名，IP 
+ifconfig 
+ip 
+route 
+netstat 
+ss 
+nmcli 
+
+{ { ping -c3 127.1;ping 127.2; }& { ping -c3 127.3;ping 127.4; }& }; 
+
+vim ping.sh
+{
+ping -c2  127.0.0.1
+ping 127.0.0.2 
+}&
+
+{
+ping -c2 127.0.0.3                                                                          
+ping 127.0.0.4
+}&
+
+
+
+read -p "Please input your score: " score
+if [[ !  "$score" =~ ^[0-9]+$  ]];then
+        echo "please input digit"
+        exit
+elif [  "$score" -gt 100 ];then
+        echo "Your score is false"
+        exit 10
+elif [ $score -lt 60 ];then
+        echo "no pass"
+elif [ $score -lt 80 ];then
+        echo "so so"
+else
+     echo "very good"
+fi
+	 
+
+	 
+read -p "Please input your score: " score
+if [[ "$score" =~ ^[0-9]+$  ]];then
+        if [ "$score" -lt 0 -o "$score" -gt 100 ];then
+                echo "Your score is false"
+                exit 10
+        elif [ $score -lt 60 ];then
+                echo "no pass"
+        elif [ $score -lt 80 ];then
+                echo "so so"
+        else
+                echo "very good"
+        fi
+else
+        echo "Please input digit"
+        exit
+fi
+
+ans=Ye;[[ $ans =~ ^[Yy]([Ee][Ss])?$ ]] && echo yes
+
+
+[root@centos7 script]#vim Yesorno.sh 
+#!/bin/bash
+read -p "please input yes or no: " ans
+case $ans in
+[Yy]|[Yy][Ee][Ss])                                                                                     
+        echo YES
+        ;;
+[Nn]|[Nn][Oo])
+        echo NO
+        ;;
+*)
+        echo input false
+esac
+
+
+for suffix in `ls |sed -nr 's/.*\.(.*)/\1/p'|sort -u`;do rename "$suffix" "sh" *;done
+
+作业：IP和netmask得出netid
+
+if 
+case
+for 2
+while
+
+
+ifconfig eth0|sed -nr '2s/.*inet (addr:)?([^ ]+).*/\2/p'
+ifconfig eth0|sed -rn '2s/[^0-9]+([.0-9]+).*/\1/p'
+
+
+实验：centos6 rm -f /boot/vmlinuz-2.6.32-754.el6.x86_64  恢复
+实验：centos6 rm -f /boot/initramfs-2.6.32-754.el6.x86_64.img，恢复
+
+while read ;do
+done < file
+
+cmd | while read ;do
+done
+
+continue
+break
+
+select 
+
+trap 
+
+function 
+return
+
+post
+mbr grub stage1 stage1.5 
+grub stage2  /boot/grub/grub.conf
+vmlinuz  root=  initramfs.img
+/sbin/init
+/etc/inittab
+/etc/rc.d/rc.sysinit
+/etc/rcN.d/K S
+/etc/rc.d/rc.local
+login 
+
+实验：rm -rf /boot/grub 恢复之
+实验：写一个服务的启动脚本 /etc/init.d/testsrv 
+
+实验：centos7 rm -rf /boot/ 恢复之
+实验：破解centos7 root口令
+实验：防破解centos7 root口令
+实验：/etc/fstab 一项错误，无法启动，恢复
+实验：源码编译内核，并设置默认启动内核
+实验：删除新内核 
+实验：自制linux
+实验：systemd 的serivce 文件，实现httpd源码编译，手工写一个对应service 文件
+实验：systemctl 工具常用用法、
+实验：禁用selinux 
+
+df |awk -F "[[:space:]]+|%" '{print $5}' 
+ss -nt | awk -F"[[:space:]]+|:"  '/ESTAB/{print $6 }'  
+ss -nt | awk -F"[[:space:]]+|:"  '/ESTAB/{print $(NF-2) }'
+lastb |awk '$3 ~ /^[[:digit:]]/{print $3}'|sort |uniq -c|awk '$1 >=3{print $2}'
+ss -nt|awk -F"[[:space:]]+|:" '/^ESTAB/{print $(NF-2)}'|sort|uniq -c|awk '$1 >=3{print $2}'
+awk -F',' '{i=2;max=$1;min=$1;while(i<=NF){if($i > max){max=$i}else if($i < min){min=$i};i++}}END{print "max="max,"min="min}' f1.txt
+
+awk '!/^name/{sum[$2]+=$3;num[$2]++}END{for(i in sum){print i,sum[i]/num[i]}}' score.txt
+
+
+
+Bob:public ,secret key,Pb,Sb
+Alice:Pa,Sa key(Sa)
+
+Bob --data-Pa加密-data'-Sa解密-data--->Alice
+
+Bob --data-Sb加密-data'-Pb解密-data--->Alice  数字签名
+
+DES 1G 2G  4 8
+RSA 1G 1G  1 64h 
+
+理论:非对称算法
+
+1 非对称
+Pa[Sb(DATA)]
+Sa{Pa[Sb(DATA)]}=Sb(data)
+Pb[Sb(data)]=data
+
+
+hash(data)=digest 摘要，指纹
+
+
+2 非对称+hash
+Pa{data+Sb[hash(data)]}
+Sa{Pa{data+Sb[hash(data)]}}=data+Sb[hash(data)]
+
+
+Pb{Sb[hash(data)]}=hash(data)]
+
+hash(data)===?hash(data)]
+
+3 对称+非对称+hash
+key{data+Sb[hash(data)]} + Pa(key)
+
+1)Sa[Pa(key)]=key
+2)key{key{data+Sb[hash(data)]}}=data+Sb[hash(data)]
+
+理论：https 工作原理
+
+实验：建立私有CA，证书申请
+
+
+/etc/pki/tls/openssl.cnf 
+
+[ CA_default ]
+
+dir             = /etc/pki/CA           # Where everything is kept
+certs           = $dir/certs            # Where the issued certs are kept
+crl_dir         = $dir/crl              # Where the issued crl are kept
+database        = $dir/index.txt        # database index file.
+#unique_subject = no                    # Set to 'no' to allow creation of
+                                        # several ctificates with same subject.
+new_certs_dir   = $dir/newcerts         # default place for new certs.
+
+certificate     = $dir/cacert.pem       # The CA certificate
+serial          = $dir/serial           # The current serial number
+crlnumber       = $dir/crlnumber        # the current crl number
+                                        # must be commented out to leave a V1 CRL
+crl             = $dir/crl.pem          # The current CRL
+private_key     = $dir/private/cakey.pem# The private key
+
+policy          = policy_match
+
+# For the CA policy
+[ policy_match ]
+countryName             = match
+stateOrProvinceName     = match
+organizationName        = match
+organizationalUnitName  = optional
+commonName              = supplied
+emailAddress            = optional
+
+
+实验：建立私有CA，证书申请
+
+1 在服务器上建立私有CA
+( umask 077;openssl genrsa -out /etc/pki/CA/private/cakey.pem 2048)
+openssl req -new -x509 -key private/cakey.pem -out cacert.pem -days 3650
+touch index.txt
+echo 00 > serial
+
+2 在客户端申请证书
+(umask 066;openssl genrsa -out app.key 1024)
+ openssl req -new -key app.key  -out app.csr
+ 
+ scp app.csr 服务器IP:/etc/pki/CA/
+
+3 在服务器上颁发证书
+ openssl ca -in app.csr -out /etc/pki/CA/certs/app.crt -days 1000
+ 
+ scp /etc/pki/CA/certs/app.crt 客户端：
+ 
+4 脚本实现
+create_ca.sh 
+request_crt.sh
+
+实验：基于key验证,expect 
+实验：ssh -L -R -D 
+实验：sudo wang ALL=(ALL) /bin/cat /var/log/messages*
+实验：tcp-wrapper /etc/hosts.{deny，allow}
+
+实验：PAM模块
+实验：制作U盘，实现半自动安装系统
+实验：dhcp服务实现（网卡工作在非桥接）
+
+实验：在centos7实现基于PXE安装centos7
+
+1 安装相关包
+yum install dhcp tftp-server syslinux 
+systemctl enable httpd dhcpd tftp
+
+2 yum源
+systemctl start httpd 
+
+mkdir /var/www/html/centos/{6,7}/os/x86_64 -pv
+mount /data/CentOS-7-x86_64-Everything-1804.iso  /var/www/html/centos/{6,7}/os/x86_64
+
+3 ks文件
+mkdir /var/www/html/ksdir/
+cp /root/anaconda-ks.cfg  /var/www/html/ksdir/ks7-mini.cfg
+chmod a+r  /var/www/html/ksdir/ks7-mini.cfg
+vim  /var/www/html/ksdir/ks7-mini.cfg
+url --url=http://192.168.34.7/centos/7/os/x86_64/
+text
+firewall --disabled
+selinux --disabled
+clearpart --all --initlabel
+zerombr
+reboot
+%packages
+@core
+%end
+
+4 dhcp服务配置
+cp /usr/share/doc/dhcp-4.2.5/dhcpd.conf.example /etc/dhcpd/dhcpd.conf
+vim /etc/dhcp/dhcpd.conf
+subnet 192.168.34.0 netmask 255.255.255.0 {
+        range 192.168.34.10 192.168.34.200;
+        option routers 192.168.34.1;
+        option domain-name-servers 8.8.8.8, 1.1.1.1;
+        next-server 192.168.34.7;
+        filename "pxelinux.0";
+}
+
+systemctl start dhcpd
+
+5 准备pxe安装相关文件
+ mkdir /var/lib/tftpboot/pxelinux.cfg/
+ cp /usr/share/syslinux/{menu.c32,pxelinux.0} /var/lib/tftpboot/
+ cp /misc/cd/isolinux/{vmlinuz,initrd.img} /var/lib/tftpboot/
+ cp /misc/cd/isolinux/isolinux.cfg /var/lib/tftpboot/pxelinux.cfg/default
+ [root@centos7 ~]# tree /var/lib/tftpboot/
+/var/lib/tftpboot/
+├── initrd.img
+├── menu.c32
+├── pxelinux.0
+├── pxelinux.cfg
+│?? └── default
+└── vmlinuz
+
+1 directory, 5 files
+
+6 准备启动菜单
+vim /var/lib/tftpboot/pxelinux.cfg/default
+default menu.c32
+timeout 100
+menu title PXE Install CentOS
+
+label mini
+  menu label ^Auto Install Mini CentOS 7
+  kernel vmlinuz
+  append initrd=initrd.img ks=http://192.168.34.7/ksdir/ks7-mini.cfg
+
+label desktop
+  menu label ^Auto Install desktop CentOS 7
+  kernel vmlinuz
+  append initrd=initrd.img ks=http://192.168.34.7/ksdir/ks7-desktop.cfg
+
+label local
+  menu default
+  menu label Boot from ^local drive
+  localboot 0xffff.
+  
+7 测试
+
+实验：在centos6实现基于PXE安装centos6
+yum install syslinux-nonlinux
+
+cp /misc/cd/isolinux/{boot.msg,vmlinuz,initrd.img,splash.jpg,vesamenu.c32} .
+mkdir /var/lib/tftpboot/pxelinux.cfg/
+cp /misc/cd/isolinux/isolinux.cfg  /var/lib/tftpboot/pxelinux.cfg/default
+
+[root@centos6 tftpboot]#tree /var/lib/tftpboot/
+/var/lib/tftpboot/
+├── boot.msg
+├── initrd.img
+├── pxelinux.0
+├── pxelinux.cfg
+│?? └── default
+├── splash.jpg
+├── vesamenu.c32
+└── vmlinuz
+
+1 directory, 7 files
+
+vim  /var/lib/tftpboot/pxelinux.cfg/default 
+default vesamenu.c32
+#prompt 1
+timeout 100
+
+display boot.msg
+
+menu background splash.jpg
+menu title PXE Install CentOS!
+menu color border 0 #ffffffff #00000000
+menu color sel 7 #ffffffff #ff000000
+menu color title 0 #ffffffff #00000000
+menu color tabmsg 0 #ffffffff #00000000
+menu color unsel 0 #ffffffff #00000000
+menu color hotsel 0 #ff000000 #ffffffff
+menu color hotkey 7 #ffffffff #ff000000
+menu color scrollbar 0 #ffffffff #00000000
+
+label linux
+  menu label ^Install Mini  centos 6  system
+  kernel vmlinuz
+  append initrd=initrd.img ks=http://192.168.34.6/ksdir/ks-mini.cfg
+label local
+  menu default
+  menu label Boot from ^local drive
+  localboot 0xffff
+
+实验：在centos7实现基于PXE安装centos6,7
+
+mount /dev/sr1    /var/www/html/centos/6/os/x86_64
+
+[root@centos7 tftpboot]#ls /var/www/html/ksdir/
+ks6-mini.cfg  ks7-mini.cfg
+
+mkdir /var/lib/tftpboot/linux{6,7} 
+
+cp /var/www/html/centos/6/os/x86_64/isolinux/{vmlinuz,initrd.img} linux6/
+cp /var/www/html/centos/7/os/x86_64/isolinux/{vmlinuz,initrd.img} linux7/
+ 
+[root@centos7 tftpboot]#tree /var/lib/tftpboot/
+.
+├── linux6
+│?? ├── initrd.img
+│?? └── vmlinuz
+├── linux7
+│?? ├── initrd.img
+│?? └── vmlinuz
+├── menu.c32
+├── pxelinux.0
+└── pxelinux.cfg
+    └── default
+	
+[root@centos7 tftpboot]#cat /var/lib/tftpboot/pxelinux.cfg/default 
+default menu.c32
+timeout 100
+menu title PXE Install CentOS
+
+label mini7
+  menu label ^Auto Install Mini CentOS 7
+  kernel linux7/vmlinuz
+  append initrd=linux7/initrd.img ks=http://192.168.34.7/ksdir/ks7-mini.cfg
+
+
+label mini6
+  menu label ^Auto Install Mini CentOS 6
+  kernel linux6/vmlinuz
+  append initrd=linux6/initrd.img ks=http://192.168.34.7/ksdir/ks6-mini.cfg
+
+label local
+  menu default
+  menu label Boot from ^local drive
+  localboot 0xffff
+  
+  
+实验：cobbler安装
+
+1  yum install cobbler cobbler-web dhcp 
+
+2 systemctl start cobblerd httpd  tftp
+
+3 cobbler check 
+
+4 vim /etc/cobbler/settings
+default_password_crypted: "$1$3BMeiH.s$mtrUL/wNANnV7z1QUduwU0"   openssl passwd -1 
+server: 192.168.34.17
+next_server: 192.168.34.17  
+manage_dhcp: 1 
+
+5 cobbler get-loaders
+
+6 vim /etc/cobbler/dhcp.template
+subnet 192.168.34.0 netmask 255.255.255.0 {
+option subnet-mask         255.255.255.0;
+range dynamic-bootp        192.168.34.100 192.168.34.254; 
+
+7 
+systemctl restart  cobblerd
+cobbler sync
+
+8 导入OS
+cobbler import --path=/misc/cd/ --name=Centos-7.5-x86_64 --arch=x86_64
+
+9 ks文件
+cp ks7_mini.cfg /var/lib/cobbler/kickstarts/
+vim  /var/lib/cobbler/kickstarts/ks7_mini.cfg
+url --url=$tree 
+
+10 将KS和OS关联，生成启动新的菜单
+cobbler profile add --name=centos-7.5-x86_64_mini --distro=Centos-7.5-x86_64 --kickstart=/var/lib/cobbler/kickstarts/ks7-mini.cfg
+
+
+实验：ansible 模块command shell script
+
+
+python -c 'import crypt,getpass;pw="centos";print(crypt.crypt(pw))'
+
+
+www.magedu.com FQDN=主机名或别名+域名（用点分隔成多个部分）
+www.sina.com.cn
+
+分层
+
+www.sohu.com
+ping 
+
+名字解析
+www.magedu.com --->ip 正向
+ip --->www.magedu.com 反向
+
+/etc/hosts 分散式
+NIS 集中
+DNS 分布式
+
+
+广播
+/etc/hosts
+c:\windows\system32\drivers\etc\hosts 
+
+计算机名-->IP
+wins WINDOWS INTERNET NAME SERVICE
+dns 
+
+
+www.sina.com.cn.
+
+IPV4 13 
+IPv6 : 25 root 
+www.sohu.com.
+miaosha.jd.com.
+
+主----》从备用
+
+推push
+pull 
+
+whois simonlove.cn
+whois wysun.cn
+.
+cn
+.
+com
+.
+sina
+.
+www
+
+top tech tt 
+
+.
+com,gov,edu,
+
+com
+
+
+magedu.com 
+www  
+mail.magedu.com
+
+
+实验：正向的主DNS服务器
+
+1 vim /etc/named.conf
+options {
+        listen-on port 53 { localhost; };
+        allow-query     { any; };
+2 vim  /etc/named.rfc1912.zones 
+zone "magedu.com" {
+        type master;
+        file "magedu.com.zone";                                                                         
+};	
+
+3 	vim /var/named/magedu.com.zone 
+$TTL 1D
+@  IN SOA       dns1  admin.magedu.com. (
+                                        0       ; serial
+                                        1D      ; refresh
+                                        1H      ; retry
+                                        1W      ; expire
+                                        3H )    ; minimum
+        NS      dns1
+dns1   A   192.168.34.7
+www    CNAME  websrv
+websrv   A      6.6.6.6
+websrv   A      8.8.8.8
+websrv   A      7.7.7.7 
+@      MX    10 mailsrv1
+@      MX    20 mailsrv2
+mailsrv1 A     11.9.9.9
+mailsrv2  A    9.9.9.9
+		
+实验：反向的主DNS服务器
+
+1 vim /etc/named.rfc1912.zones 
+zone "34.168.192.in-addr.arpa" {
+        type master;
+        file "192.168.34.zone";
+};
+
+2 
+[root@centos7 named]#vim 192.168.34.zone                                     
+$TTL 86400
+@ IN SOA dnsserver admin.magedu.com. ( 2018112343  3H 10M 1D 1H )
+     NS  dnsserver
+dnsserver  A   192.168.34.7                                                                             
+7        PTR   dnsserver.magedu.com.
+100      PTR   www.magedu.com.
+200      PTR   blog.magedu.com.
+
+3 rndc reload 
+
+实验：实现主从复制
+
+1 在主服务器上
+vim /etc/named.conf
+ allow-transfer  { 从服务器IP;}; 
+ 
+vim /var/named/magedu.com.zone
+NS      dns2
+dns2   A   192.168.34.17
+
+
+2 在从服务器上
+vim /etc/named.conf
+allow-transfer {none;};  
+
+vim /etc/named.rfc1912.zones 
+zone "magedu.com" {
+        type slave;
+        masters {192.168.34.7;};
+        file "slaves/magedu.com.zone.slave";
+};
+
+
+实验：实现子域的委派(父域和子域在不同主机上)
+
+1 在父域主机上
+
+vim /var/named/magedu.com.zone
+shenzhen NS     dns3
+dns3   A   192.168.34.27
+
+2 在子域主机上
+vim /etc/named.rfc1912.zones 
+zone "shenzhen.magedu.com" {
+        type master;
+        file "shenzhen.magedu.com.zone";                                                                
+};
+
+vim /var/named/magedu.com.zone 
+
+
+实验：实现转发器
+
+vim /etc/named.conf
+forward first ;                                                                                 
+forwarders  {192.168.34.17;};
+
+注意：关闭dnssec功能
+dnssec-enable no;
+dnssec-validation no;
+
+
+
+实验：智能DNS
+
+1 vim /etc/named.conf
+acl beijingnet {
+        192.168.34.0/24;
+};
+acl shanghainet {
+        172.18.0.0/16;
+};
+acl shenzhennet {
+        any;
+};
+options {
+
+。。。。。。
+
+logging {
+        channel default_debug {
+                file "data/named.run";
+                severity dynamic;
+        };
+};
+
+
+include "/etc/named.root.key";
+view  view_beijing {
+        match-clients { beijingnet;};
+        include "/etc/named.rfc1912.zones";
+};
+view view_shanghai {
+         match-clients { shanghainet;};
+         include "/etc/named.rfc1912.zones.shanghai";
+};
+view view_shenzhen {
+         match-clients { shenzhennet;};
+         include "/etc/named.rfc1912.zones.shenzhen";
+};
+
+
+vim /etc/named.rfc1912.zones
+zone "." IN {
+        type hint;
+        file "named.ca";
+};
+
+zone "magedu.com" {
+        type master;
+        file "magedu.com.zone.bj";                                                                      
+};
+
+
+vim /etc/named.rfc1912.zones.shanghai
+zone "." IN {
+        type hint;
+        file "named.ca";
+};
+zone "magedu.com" {
+        type master;
+        file "magedu.com.zone.sh";                                                                      
+};
+
+
+vim /etc/named.rfc1912.zones.shenzhen
+zone "." IN {
+        type hint;
+        file "named.ca";
+};
+
+zone "magedu.com" {
+        type master;
+        file "magedu.com.zone.sz";                                                                      
+};
+
+
+[root@centos7 named]#ls magedu.com.zone.*
+magedu.com.zone.bj  magedu.com.zone.sh  magedu.com.zone.sz
+
+
+
+实验：基于源编译多实例
+
+1 规划相关目录
+mkdir /mysql/{3306,3307,3308}/{data,etc,socket,log,pid} -pv
+chown -R mysql.mysql /mysql
+2 准备数据库数据文件
+/app/mysql/scripts/mysql_install_db  --user=mysql --datadir=/mysql/3306/data
+/app/mysql/scripts/mysql_install_db  --user=mysql --datadir=/mysql/3307/data/
+/app/mysql/scripts/mysql_install_db  --user=mysql --datadir=/mysql/3308/data
+
+3 准备配置文件
+vim /mysql/3308/etc/my.cnf 
+[mysqld]
+port=3308
+datadir=/mysql/3308/data
+socket=/mysql/3308/socket/mysql.sock
+[mysqld_safe]
+log-error=/mysql/3308/log/mariadb.log
+pid-file=/mysql/3308/pid/mariadb.pid    
+
+4 准备启动脚本
+chmod +x /mysql/3308/mysqld
+
+5 启动
+/mysql/3308/mysqld start
+mysql -uroot -h127.0.0.1 -P 3308 
+mysql -uroot -S /mysql/3308/socket/mysql.sock
+
+6 安全加固
+/app/mysql/bin/mysql_secure_installation  -S /mysql/3308/socket/mysql.sock 
+
+mysql -uroot -pcentos -h127.0.0.1 -P 3308 
+mysql -uroot -pcentos -S /mysql/3308/socket/mysql.sock
+
+
+cp /mysql/3308/mysqld /etc/init.d/mysql3308
+chkconfig --list
+chkconfig --add mysqld3308
+
+
+字符集更改：
+alter database studentdb character set  utf8;
+alter table student character set utf8;
+alter table student change name name varchar(20) character set utf8;
+
+
+cross join 交叉连接
+
+
+select * from students as s left outer join teachers  t on  s.teacherid=t.tid where  t.tid is null;      
+select * from students as s right outer join teachers  t on  s.teacherid=t.tid where  s.teacherid is null;
+
+子查询
+select * from  (select stuid,s.name as student_name,s.age as student_age,s.gender as student_gender ,classid,teacherid,tid,t.name as teacher_name,t.age as teacher_age,t.gender as teacher_gedner 
+from students as s  left outer join teachers  t on  s.teacherid=t.tid  
+union  
+select stuid,s.name,s.age,s.gender,classid,teacherid,tid,t.name,t.age,t.gender 
+from students as s right outer join teachers  t on  s.teacherid=t.tid) 
+as f  where f.teacherid is null or f.tid is null;
+
+自连接
+select a.name,b.name from emp as a left  join emp as b on a.leaderid=b.id; 
+
+三张表
+select st.name,co.Course ,sc.score from  students as st inner join scores as sc on st.stuid=sc.id inner join courses as co on sc.courseid=co.CourseID;
+
+
+
+set  profiling=ON
+show profiles; 
+show profile for query 5;
+
+
+update students set birth=now(); 100
+
+
+星期日 完全
+students
+teachers 
+
+星期一 students
+星期二 students
+星期三 down 
+
+星期日 teachers 1-10
+星期二 students 100 12 
+
+
+ mysql-bin.000001 |       454 
+ 
+ 
+ 分库备份脚本
+ for db in `mysql -e 'show databases' |grep -Ev '^(Database|information_schema|performance_schema)$'`;do mysqldump -B $db|gzip  > $db`date +%F`.sql.gz;done
+ mysql -e 'show databases' |grep -Ev '^(Database|information_schema|performance_schema)$'|sed -r 's/(.*)/mysqldump -B \1 |gzip > \/data\/\1.sql.gz/'  |bash
+ 
+ mysqldump –uroot –A –F  --single-transaction --master-data=2  --default-character-set=utf8 --hex-blob >$BACKUP/fullbak_$BACKUP_TIME.sql
+ 
+ 
+ 
+实验：删除数据库，还原至最新状态
+
+备份 
+ 1 数据库和二进制日志分离存放
+ 2 确认字符集和存储引擎 
+ 3 完全备份
+ mysqldump -A --single-transaction -F --master-data=2 |gzip > /data/all_bak_`date +%F`.sql.gz
+ 4 对数据库修改
+ 5 破坏数据库
+ rm -rf /var/lib/mysql/*
+还原
+ 6 禁止用户访问
+ 7 gzip -d /data/all_bak_2018-12-05.sql.gz
+ 8 systemctl restart mariadb 
+ 9 旧终端mysql> set sql_log_bin=off;
+ 10 旧终端mysql>source /data/all_bak_2018-12-05.sql
+ 11 新开终端查看备份的位置 
+ cat /data/all_bak_2018-12-05.sql |less
+ --CHANGE MASTER TO MASTER_LOG_FILE='mysql-bin.000007', MASTER_LOG_POS=245;
+ 12 新开终端
+ mysqlbinlog  /data/logbin/mysql-bin.0000{07,08,09,10} > incr.sql
+ 13 返回旧终端
+ mysql>source /data/incr.sql
+ 14 开启二进制
+ set sql_log_bin=on;
+ 15 检查无误后，恢复用户访问
+ 
+ 
+ 实验：恢复误删除的表
+ 1 准备
+ 2 还原
+ 1）禁止用户访问
+ 2）mysql>set sql_log_bin=off;
+ 3）mysql>source /data/all_bak.sql;
+ 4）查看 all_bak.sql，确定二进制日志位置
+ 5）mysqlbinlog  mysql-bin.000011 > /data/incr.sql
+ 6）vim /data/incr.sql
+ 将drop table 命令注释
+ 7）mysql>source /data/all_bak.sql;
+ 8）恢复访问：set sql_log_bin=on;
+ 
+ 实验：xtranbackup备份
+ 实验：对旧的主，建新的从复制 
+ 实验：一个主，两个从，主down机，启用新主
+ 
+ 
+ 实验：级联复制
+ 
+ 实验：复制出错，解决实战
+ 
+ 实验：半同步
+ 实验：复制过滤器
+ 
+ 实现：SSL加密同步
+(umask 066;openssl genrsa 2048 > cakey.pem)
+openssl req -new -x509 -key cakey.pem -out cacert.pem -days 3650
+openssl req -newkey rsa:2048 -days 365 -nodes -keyout master.key > master.csr
+openssl req -newkey rsa:2048 -days 365 -nodes -keyout slave.key > slave.csr
+openssl x509 -req -in master.csr  -CA cacert.pem -CAkey cakey.pem -set_serial 01 > master.crt
+openssl x509 -in master.crt -noout -text
+openssl x509 -req -in slave.csr  -CA cacert.pem -CAkey cakey.pem -set_serial 02 > slave.crt
+
+实验：proxysql
+实验：MHA实现高可用性
+/etc/masterha_default.cnf
+
+
+实验：实现家目录共享
+[root@centos7 conf.d]#vim userdir.conf 
+    #UserDir disabled
+    UserDir public_html
+</IfModule>
+<directory /home/wang/public_html>
+authtype basic
+authname "wang home"
+authuserfile "/etc/httpd/conf.d/httpdpass"
+require user tom
+</directory>     
+
+实验：实现basic验证
+1 
+2 .htaccess
+
+实验：基于IP，PORT,FQDN三种不同方式的虚拟主机
+
+[root@centos7 conf.d]#cat test.conf
+
+<virtualhost *:80>
+servername www.b.net
+DocumentRoot "/data/bsite"
+<directory /data/bsite>
+Require all granted
+</directory>
+customlog /var/log/httpd/access_b.log testlog
+</virtualhost>
+
+<virtualhost *:80>
+servername www.c.cn
+DocumentRoot "/data/csite"
+<directory /data/csite>
+Require all granted
+</directory>
+customlog /var/log/httpd/access_c.log testlog
+</virtualhost>
+DocumentRoot "/data/www"
+<directory /data/www>
+Require all granted
+
+</directory>
+alias /sports  /data2/sports
+<directory /data2/sports>
+Require all granted
+</directory>
+<virtualhost *:80>
+DocumentRoot "/data/asite"
+servername "www.a.com"
+<directory /data/asite>
+Require all granted
+</directory>
+customlog /var/log/httpd/access_a.log testlog
+</virtualhost>
+
+
+实验：源码编译httpd2.4.37,并实现多虚拟主机，https
+
+
+<?php
+try {
+$user='test';
+$pass='centos';
+$dbh = new PDO('mysql:host=192.168.34.27;dbname=mysql', $user, $pass);                                  
+foreach($dbh->query('SELECT user,host,password from user') as $row) {
+print_r($row);
+}
+$dbh = null;
+} catch (PDOException $e) {
+print "Error!: " . $e->getMessage() . "<br/>";
+die();
+}
+?>
+
+实验：LAMP fastcgi模式实现wordpress,phpmyadmin,discuz!
+
+实验：源码编译LAMP,实现fastcgi模式
+环境：
+apr-1.6.5.tar.bz2
+apr-util-1.6.1.tar.bz2
+httpd-2.4.37.tar.bz2
+mariadb-10.2.19-linux-x86_64.tar.gz 
+php-7.1.18.tar.bz2
+wordpress-4.9.4-zh_CN.tar.gz
+
+
+1 准备apache
+useradd -r -s /sbin/nologin apache
+
+./configure \
+--prefix=/app/httpd24 \
+--enable-so \
+--enable-ssl \
+--enable-cgi \
+--enable-rewrite \
+--with-zlib \
+--with-pcre \
+--with-included-apr \
+--enable-modules=most \
+--enable-mpms-shared=all \
+--with-mpm=prefork
+
+
+2 准备mysql
+
+3 准备php
+yum install libxml2-devel bzip2-devel libmcrypt-devel
+
+tar xvf php-7.1.7.tar.bz2
+cd php-7.1.7/
+./configure --prefix=/app/php \
+--enable-mysqlnd \
+--with-mysqli=mysqlnd \
+--with-openssl \
+--with-pdo-mysql=mysqlnd \
+--enable-mbstring \
+--with-freetype-dir \
+--with-jpeg-dir \
+--with-png-dir \
+--with-zlib \
+--with-libxml-dir=/usr \
+--enable-xml \
+--enable-sockets \
+--enable-fpm \
+--with-config-file-path=/etc \
+--with-config-file-scan-dir=/etc/php.d \
+--enable-maintainer-zts \
+--disable-fileinfo
+
+cp php.ini-production /etc/php.ini
+cp sapi/fpm/init.d.php-fpm /etc/init.d/php-fpm
+chmod +x /etc/init.d/php-fpm
+chkconfig --add php-fpm
+chkconfig php-fpm on
+cd /app/php/etc
+cp php-fpm.conf.default php-fpm.conf
+cp php-fpm.d/www.conf.default php-fpm.d/www.conf
+
+
+4 修改httpd支持php
+vim /app/httpd24/conf/httpd.conf
+取消下面两行的注释
+LoadModule proxy_module modules/mod_proxy.so
+LoadModule proxy_fcgi_module modules/mod_proxy_fcgi.so
+修改下面行
+<IfModule dir_module>
+DirectoryIndex index.php index.html
+</IfModule>
+加下面四行
+AddType application/x-httpd-php .php
+AddType application/x-httpd-php-source .phps
+ProxyRequests Off
+ProxyPassMatch ^/(.*\.php)$ fcgi://127.0.0.1:9000/app/httpd24/htdocs/$1
+
+
+实验：禁锢所有，启用白名单
+chroot_local_user=YES                                                                                   
+chroot_list_enable=YES
+# (default follows)
+chroot_list_file=/etc/vsftpd/chroot_list
+
+实验：不禁锢所有，启用黑名单
+chroot_local_user=NO                                                                                  
+chroot_list_enable=YES
+# (default follows)
+chroot_list_file=/etc/vsftpd/chroot_list
+
+
+/dev/sr0 mount
+
+
+/misc/cd 
+/misc/nfs 
+basename cd 
+dirname /misc
+
+192.168.34.7:/data/nfsdir2 --->  /misc/nfs 
+
+1 相对路径法
+/etc/auto.master
+dirname  /etc/子配置文件
+/misc   /etc/auto.misc
+
+/etc/子配置文件
+cd   dev
+nfs  dev
+
+2 绝对路径法
+/etc/auto.master
+/-  /etc/子配置文件
+
+/etc/子配置文件
+/misc/nfs  192.168.34.7:/data/nfsdir2 
+
+
+
+
+
